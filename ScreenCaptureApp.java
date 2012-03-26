@@ -1,9 +1,8 @@
 public class ScreenCaptureApp {
-  public class ScreenCapture {
 private int delay=10000;
   public static void main(String[] argv) throws InterruptedException {
-		ScreenCapture screenCapture = new ScreenCapture();
-		screenCapture.captureScreenShots();
+		ScreenCaptureApp screenCaptureApp = new ScreenCaptureApp();
+		ScreenCaptureApp.captureScreenShots();
 	}
 
 	boolean captureScreenShots() throws InterruptedException {
